@@ -11,9 +11,9 @@ from git.exc import InvalidGitRepositoryError
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from utils.tools import initialize_git
-from utils.handler import *
-from utils.scripts import format_exc, restart
+from Akeno.utils.tools import initialize_git
+from Akeno.utils.handler import *
+from Akeno.utils.scripts import format_exc, restart
 from config import CMD_HANDLER
 
 @Akeno(
