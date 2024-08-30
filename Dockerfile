@@ -74,4 +74,4 @@ RUN mv ffmpeg-git*/ffmpeg ffmpeg-git*/ffprobe /usr/local/bin/
 
 EXPOSE 7860
 
-CMD ["bash", "-c", "python3 server.py & python3 -m Akeno"]
+CMD ["bash", "-c", "python3 -m Akeno"]
