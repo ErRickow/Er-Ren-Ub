@@ -2,12 +2,10 @@ aiofiles
 aiohttp
 future
 gTTS
-googletrans==4.0.0-rc1
+googletrans
 bs4
 pytz
 requests
-psycopg2-binary
-psycopg2
 TgCrypto
 pyromod==1.1.0
 ffmpeg-python
@@ -20,7 +18,6 @@ typing
 Python-IO
 Pillow==9.5.0
 telegraph
-urllib3
 motor
 SQLAlchemy==1.3.23
 opencv-python-headless
@@ -38,7 +35,7 @@ gitpython
 pymediainfo
 prettytable
 stability_sdk[anim_ui]
-httpx[http2]
+httpx==0.27.1
 speedtest-cli
 numpy
 validators
@@ -82,6 +79,9 @@ git-python
 pySmartDL
 selenium
 PyYAML==6.0.2
-git+https://github.com/KurimuzonAkuma/pyrogram.git
+git+https://github.com/KurimuzonAkuma/pyrogram
 git+https://github.com/TeamKillerX/RyuzakiLib
+git+https://github.com/johnwmillr/LyricsGenius
+git+https://github.com/urllib3/urllib3
 yt-dlp==2024.8.6
+pytgcalls==3.0.0.dev22
